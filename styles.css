@@ -1,0 +1,13 @@
+body {
+    padding-top: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  

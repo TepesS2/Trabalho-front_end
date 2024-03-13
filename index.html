@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Matrículas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo ao Sistema de Matrículas da Universidade</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="username">Usuário:</label>
+            <input type="text" class="form-control" id="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha:</label>
+            <input type="password" class="form-control" id="password" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h2>Registrar</h2>
+        <form id="registerForm">
+          <div class="form-group">
+            <label for="newUsername">Novo Usuário:</label>
+            <input type="text" class="form-control" id="newUsername" required>
+          </div>
+          <div class="form-group">
+            <label for="newPassword">Nova Senha:</label>
+            <input type="password" class="form-control" id="newPassword" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Registrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
