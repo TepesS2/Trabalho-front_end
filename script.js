@@ -61,3 +61,17 @@ window.addEventListener('load', function() {
     window.location.href = 'index.html';
   }
 });
+// scripts.js
+
+// Exemplo de uso do jQuery
+$(document).ready(function() {
+  // Código jQuery aqui
+  $('input[type="checkbox"]').change(function() {
+    // Verifica se a caixa de seleção foi marcada ou desmarcada
+    if ($(this).is(':checked')) {
+      $(this).closest('tr').addClass('selected');
+    } else {
+      $(this).closest('tr').removeClass('selected');
+    }
+  });
+});

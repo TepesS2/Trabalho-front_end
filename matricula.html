@@ -6,7 +6,7 @@
   <title>Área de Matrícula</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="matriculas.css">
-</head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <body>
   <div class="container">
     <h1>Área de Matrícula</h1>
@@ -39,7 +39,7 @@
             <td>Terça-feira, 9:00 - 11:00</td>
             <td><input type="checkbox" name="fisica"></td>
           </tr>
-          <!-- Adicione mais linhas conforme necessário -->
+
         </tbody>
       </table>
   
@@ -66,10 +66,15 @@
             <td>Quinta-feira, 19:00 - 21:00</td>
             <td><input type="checkbox" name="historia"></td>
           </tr>
-          <!-- Adicione mais linhas conforme necessário -->
+         
         </tbody>
       </table>
     </div>
-  <script src="script.js"></script>
+<div class="container">
+  <button id="selectAllBtn" class="btn btn-primary">Selecionar Tudo</button>
+  <button id="clearSelectionBtn" class="btn btn-secondary">Limpar Seleções</button>
+</div>
+
+  <script src="script matricula.js"></script>
 </body>
 </html>

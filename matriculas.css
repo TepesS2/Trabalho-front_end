@@ -21,4 +21,7 @@ h1 {
     margin-right: auto;
     display: block;
   }
+  .table .selected {
+    background-color: #a3a3a3;
+  }
   
